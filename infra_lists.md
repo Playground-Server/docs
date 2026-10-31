@@ -3,7 +3,8 @@
 | Name | Brand |
 | --- | --- |
 | Local Mikrotik | RB750Gr3 |
-| Internet | Indosat Hifi |
+| Internet | Huawei H153-381 (Indosat Hifi) |
+| Internet | Neighbor Wifi |
 
 ### Nodes
 | Hostname | Hardware | Operating system | Storage | CPU / RAM | Purpose |
@@ -13,3 +14,11 @@
 | k8s-02 | Orange Pi 5 | Ubuntu Server 22.04.2 LTS (jammy) | 250GB SSD | arm64, 8 cores, 4GB RAM | Kubernetes cluster |
 | k8s-03 | Orange Pi 5 | Ubuntu Server 22.04.2 LTS (jammy) | 250GB SSD | arm64, 8 cores, 16GB RAM | Kubernetes cluster |
 | util-02 | Lenovo ThinkCentre M710Q | Ubuntu Server 22.04.2 LTS (jammy) | 128GB SSD, 1TB HDD | amd64, i5-7500, 4GB RAM (upgradeable) | Extra storage, such as NFS and Nexus |
+
+### Application List
+| Hostname | Applications |
+| --- | --- |
+| util-01 | Teleport Master ([teleport.devopsplayground.my.id](https://teleport.devopsplayground.my.id)), acme.sh (certificate distribution), LDAP (under consideration), Ansible |
+| util-02 | NXRM ([nexus.devopsplayground.my.id](https://nexus.devopsplayground.my.id)), NFS/Longhorn |
+| k8s-xx | Kubernetes workloads |
+

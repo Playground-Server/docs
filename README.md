@@ -13,5 +13,6 @@ Documentation about the whole homelab
 - [Ansible](tools_ansible.md)
 - [Cloudflared](tools_cloudflared.md)
 - [Nginx and Let's Encrypt](tools_nginx_letsencrypt.md)
+- [NXRM](tools_nxrm.md)
 - [phpIPAM](tools_phpipam.md)
 - [Teleport](tools_teleport.md)
