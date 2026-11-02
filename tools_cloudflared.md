@@ -1,3 +1,4 @@
+# Cloudflared
 Search releases version that we want to use in https://github.com/cloudflare/cloudflared/releases?source=post_page-----c40a667ac022--------------------------------
 
 ```

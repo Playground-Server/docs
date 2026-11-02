@@ -55,7 +55,6 @@ ansible-inventory --inventory=inventory/phpipam_inventory.py --list --yaml
 ### Inventory
 
 ### Ansible Vault
-
 Create pass file, and then type command. Type value that want to encrypted. Once done press `ctrl+d` twice (if value doesn't have newline).
 
 ```bash
@@ -72,7 +71,6 @@ ansible-playbook playbook.yaml --vault-password-file pass
 ```
 
 ### Roles
-
 We're gonna using ansible galaxy but rather than publicly upload at galaxy website, we're gonna using private repository (git). To create a role, we can use command like `ansible-galaxy init sample-role` or create our own directory structure like this.
 
 ```bash
@@ -96,7 +94,6 @@ sample-role/
 When is done creating, we can push to our repository.
 
 ### Installing Roles
-
 We can specifying roles on one yaml file like this https://gitlab.com/playground-server-project/devops/ansible/ansible-workspace/ansible-workspace/-/blob/master/roles.yaml?ref_type=heads.
 
 Then install them with this command.
@@ -106,7 +103,6 @@ ansible-galaxy install -r roles.yml --force
 ```
 
 ### References
-
 * https://opencredo.com/blogs/reusing-ansible-roles-with-private-git-repos-and-dependencies/
 * \[Ansible Vault\] https://stackoverflow.com/a/44044094
 * https://www.digitalocean.com/community/tutorials/how-to-use-vault-to-protect-sensitive-ansible-data

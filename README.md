@@ -16,3 +16,6 @@ Documentation about the whole homelab
 - [NXRM](tools_nxrm.md)
 - [phpIPAM](tools_phpipam.md)
 - [Teleport](tools_teleport.md)
+
+### Research and Notes
+- [Qwen3 at 16 GB VRAM](rnd_qwen3_at_16gb_vram.md)

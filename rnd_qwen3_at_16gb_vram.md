@@ -1,0 +1,1 @@
+https://augmentedmind.substack.com/p/the-16gb-threshold
